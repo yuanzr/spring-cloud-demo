@@ -15,10 +15,16 @@ public class OrderController {
     private OrderService orderService;
 
 
-    @RequestMapping("/getUserList")
-    public List<String> getUserList() {
-        System.out.println("Order服务 -- 调用 -- member服务 ");
-        return orderService.getOrderByMemberList();
+    @RequestMapping("/getUserListRest")
+    public List<String> getUserListRest() {
+        System.out.println("Order服务(rest客户端) -- 调用 -- member服务 ");
+        return orderService.getOrderByMemberListRest();
+    }
+
+    @RequestMapping("/getUserListFeign")
+    public List<String> getUserListFeign() {
+        System.out.println("Order服务(Feign客户端) -- 调用 -- member服务 ");
+        return orderService.getOrderByMembersListFeign();
     }
 
 
