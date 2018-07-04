@@ -1,0 +1,14 @@
+server:
+  port: 8773
+
+spring:
+  application:
+    name: service-order
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka/
+
+
+

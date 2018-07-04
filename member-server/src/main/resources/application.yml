@@ -1,0 +1,15 @@
+#如果进行service cluster,每次run之前需要修改port
+server:
+  port: 8764
+
+spring:
+  application:
+    name: service-member
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka/
+
+
+
