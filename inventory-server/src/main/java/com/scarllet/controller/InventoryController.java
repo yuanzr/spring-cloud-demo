@@ -10,6 +10,7 @@ import java.util.List;
 public class InventoryController {
 
     //dev1
+    //dev2
     @RequestMapping("/getUserList")
     public String getUserList() {
         System.out.println("Order服务 -- 调用 -- member服务 ");
