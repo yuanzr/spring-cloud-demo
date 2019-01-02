@@ -8,7 +8,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 @SpringBootApplication
 public class ConfigServerApplication {
 	/**
-	 *
+	 * mast
 	 *
 	 * 访问:http://localhost:9900/foo/dev 看到下面信息则成功
 	 * {"name":"foo","profiles":["dev"],"label":null,"version":null,"state":null,"propertySources":[]}
