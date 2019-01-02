@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class InventoryController2 {
 
     //1
+    //2
     @RequestMapping("/getUserList")
     public String getUserList() {
         System.out.println("Order服务 -- 调用 -- member服务 ");
