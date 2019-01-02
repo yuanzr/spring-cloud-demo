@@ -11,6 +11,7 @@ import java.util.List;
 @RestController
 public class MemberController {
     //1
+    //2
 
     @Value("${server.port}")
     private String  ServerPort;
