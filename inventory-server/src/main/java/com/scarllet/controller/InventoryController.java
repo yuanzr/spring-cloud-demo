@@ -9,7 +9,7 @@ import java.util.List;
 @RestController
 public class InventoryController {
 
-    //1
+    //122
     @RequestMapping("/getUserList")
     public String getUserList() {
         System.out.println("Order服务 -- 调用 -- member服务 ");
