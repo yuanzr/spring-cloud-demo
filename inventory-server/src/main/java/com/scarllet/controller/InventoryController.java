@@ -11,6 +11,7 @@ public class InventoryController {
 
     //dev1
     //dev2
+    //dev3
     @RequestMapping("/getUserList")
     public String getUserList() {
         System.out.println("Order服务 -- 调用 -- member服务 ");
