@@ -17,4 +17,5 @@ public class InventoryController {
     }
     //33
     //hot1
+    //hot2
 }
