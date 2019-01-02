@@ -16,5 +16,5 @@ public class InventoryController {
         return "";
     }
     //33
-
+    //hot1
 }
